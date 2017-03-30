@@ -1,0 +1,885 @@
+@charset "UTF-8";
+
+
+
+
+@font-face {
+    font-family: GothamRoundedq; 
+    src: url(fonts/GothamRounded-Bold.otf); 
+
+   }
+   @font-face {
+    font-family: GothamRoundedw; 
+    src: url(fonts/GothamRoundedBold_21016.ttf); 
+   }
+   @font-face {
+
+    font-family: GothamRoundede; 
+    src: url(fonts/GothamRounded-BoldItalic.otf); 
+       }
+   @font-face {
+    font-family: GothamRoundedr; 
+    src: url(fonts/GothamRounded-Book.otf); 
+       }
+   @font-face {
+
+    font-family: GothamRoundedt; 
+    src: url(fonts/GothamRoundedBook_21018.ttf); 
+       }
+   @font-face {
+
+    font-family: GothamRoundedy; 
+    src: url(fonts/GothamRounded-BookItalic.otf); 
+       }
+   @font-face {
+
+    
+    font-family: GothamRoundedu; 
+    src: url(fonts/GothamRounded-Light.otf); 
+       }
+   @font-face {
+
+    font-family: GothamRoundedi; 
+    src: url(fonts/GothamRoundedLight_21020.ttf); 
+       }
+   @font-face {
+
+    font-family: GothamRoundedo; 
+    src: url(fonts/GothamRounded-LightItalic.otf); 
+       }
+   @font-face {
+
+    font-family: GothamRoundedp; 
+    src: url(fonts/GothamRounded-Medium.otf); 
+       }
+   @font-face {
+
+    
+    font-family: GothamRoundeda; 
+    src: url(fonts/GothamRoundedMedium_21022.ttf); 
+       }
+   @font-face {
+
+    font-family: GothamRoundeds; 
+    src: url(fonts/GothamRounded-MediumItalic.otf); 
+       }
+
+
+* {
+  margin: 0px;
+  padding: 0px
+
+
+}
+
+li {
+    display: inline-block;
+}
+a {
+    display: inline-block;
+    text-decoration:none;
+    color: #373737;
+}
+img {
+      display: inline-block;
+}
+
+
+
+
+#page-wrapper{
+  height:3595px;
+    width:1280px;
+    margin:0 auto;
+        }
+
+#header {
+background-image: url("images/444.png");
+  width:1280px;
+  height:745px;
+
+}
+
+
+
+
+/*menu */
+/*
+#menu1 {
+
+}
+
+#menu1 > ul {
+  margin-top: 20px;
+  margin-left: 236px;
+        display: inline-block;
+
+
+}
+
+#menu1 > ul > li {
+  list-style: none;
+  display:inline-block;
+}
+
+
+#menu1 > ul > li a{
+  color:#ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "GothamRoundedq";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+
+  position:relative;
+      display: inline-block;
+}
+#menu1 > ul > #logo{
+
+       width: 53px;
+       height: 55px;
+       position: relative;
+}
+#menu1 > ul > #logo > img {
+
+  position:absolute;
+  top:10px;
+    left:0;
+}
+   #logo{
+    margin-top:60px;
+   }
+
+*/
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.flex-item {
+
+
+
+    margin-top: 0px;
+    margin-left: 272px;
+  
+    font-size: 16px;
+    font-family: "GothamRoundedq";
+
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 10;
+
+    text-decoration:none;
+
+color:#ffffff;
+      letter-spacing: 2.5px;
+
+}
+
+.flex-item2 {
+
+
+
+    margin-top: 0px;
+    margin-left: 63px;
+  
+    font-size: 16px;
+    font-family: "GothamRoundedq";
+
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 10;
+
+    text-decoration:none;
+
+color:#ffffff;
+      letter-spacing: 2.5px;
+
+}
+
+.flex-item3 {
+
+
+  width: 53px;
+  height: 55px;
+    margin-top: 40px;
+    margin-left: 99px;
+
+  color: white;
+
+}
+
+.flex-item4 {
+
+
+
+    margin-top: 0px;
+    margin-left: 98px;
+  
+    font-size: 16px;
+    font-family: "GothamRoundedq";
+
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 10;
+
+    text-decoration:none;
+
+color:#ffffff;
+      letter-spacing: 2.5px;
+
+}
+
+.flex-item5 {
+
+
+    margin-top: 0px;
+    margin-left: 75px;
+
+  
+    font-size: 16px;
+    font-family: "GothamRoundedq";
+
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 10;
+
+    text-decoration:none;
+
+color:#ffffff;
+      letter-spacing: 2.5px;
+
+}
+
+.your_life___a_photo {
+      margin-top: 173px;
+    margin-left: 390px;
+  font-size: 36px;
+  font-family: "GothamRoundedq";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+display: inline-block;
+
+
+  letter-spacing: 5.45px;
+}
+
+.print_your_life_in_a_simple_photo {
+  font-size: 16px;
+  font-family: "GothamRoundedp";
+  color: rgb(255, 255, 255);
+ /* line-height: 25; */
+    margin-top: 7px;
+    margin-left: 476px;
+display: inline-block;
+    letter-spacing: 2.37px;
+
+}
+
+.Rettangolo_1 {
+  border-radius: 3px;
+  background-image: url("images/Rettangolo 1.png");
+
+  width: 166px;
+  height: 49px;
+
+  border: 0px;
+    margin-top: 25px;
+    margin-left: 557px;
+      font-size: 11px;
+  font-family: "GothamRoundedq";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+text-transform: uppercase;
+
+letter-spacing: 2.47px;
+}
+
+.flex-itemq {
+
+
+
+    margin-top: 222px;
+    margin-left: 591px;
+
+
+
+}
+
+.flex-itemw {
+
+
+    margin-top: 222px;
+    margin-left: 16px;
+
+
+
+}
+
+
+.flex-iteme {
+
+
+
+    margin-top: 222px;
+    margin-left: 16px;
+
+}
+
+.get {
+display: inline-block;
+    margin-top: 2px;
+    margin-left: 3.6px;
+}
+
+#one {
+
+  background-image: url("images/Rettangolo3.png");
+  width:1280px;
+  height:492px;
+
+}
+
+.Rappresent_your_life_with_a__simple_photo {
+  font-size: 18px;
+  font-family: "GothamRoundedq";
+  color: rgb(22, 160, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+
+  display: inline-block;
+
+    margin-top: 109px;
+    margin-left: 129px;
+
+      letter-spacing: 2.72px;
+}
+
+
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+    display: inline-block;
+  font-size: 12px;
+  font-family: "GothamRoundedr";
+  color: rgb(55, 55, 55);
+  line-height: 2;
+      margin-top: 109px;
+    margin-left: 129px;
+        letter-spacing: 1.8px;
+            margin-top: 190px;
+    margin-left: -389.5px;
+}
+
+.bbold{
+
+      font-family: "GothamRoundedq";
+}
+
+.Rettangolo_2 {
+      display: inline-block;
+  border-radius: 3px;
+  background-image: url("images/Rettangolo 2.png");
+    margin-top: 351px;
+    margin-left: -435px;
+  width: 192px;
+  height: 51px;
+
+  border: 0px;
+
+      font-size: 11px;
+  font-family: "GothamRoundedq";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+text-transform: uppercase;
+
+letter-spacing: 2.40px;
+
+
+
+}
+.get1 {
+display: inline-block;
+    margin-top: 4px;
+    margin-left: 1.8px;
+}
+
+.phoneandhand {
+      display: inline-block;
+    margin-top:100px;
+    margin-left: 129px;
+
+    margin-top: 91px;
+    margin-left: 191px;
+
+
+}
+#two {
+
+      background-color: rgb(255, 255, 255);
+
+    width: 1280px;
+  height: 558px;
+
+}
+
+.phone2 {
+
+      display: inline-block;
+    margin-top: 146px;
+    margin-left: 125px;
+
+  width: 317px;
+  height: 412px;
+
+}
+
+.DESIGN1 {
+        display: inline-block;
+  font-size: 18px;
+  font-family: "GothamRoundedq";
+  color: rgb(22, 160, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.222;
+      margin-top: 146px;
+    margin-left: 125px;
+
+    letter-spacing: 2.47px;
+        margin-top: 142px;
+    margin-left: 325px;
+}
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc_1 {
+  display: inline-block;
+  font-size: 12px;
+  font-family: "GothamRoundedr";
+  color: rgb(55, 55, 55);
+  line-height: 1.883;
+
+  width: 450px;
+  height: 107px;
+
+     margin-top: -360px;
+     margin-left: 769px;
+
+
+        letter-spacing: 1.8px;
+}
+
+._01_05 {
+    display: inline-block;
+  font-size: 12px;
+  font-family: "Gotham Rounded";
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.833;
+  text-align: left;
+
+    margin-top: -122px;
+    margin-left: -192px;
+
+
+  letter-spacing: 1.8px;
+}
+
+.fa_angle_left_copia {
+  display: inline-block;
+  border: none;
+  width: 11px;
+  height: 16px;
+  z-index: 711;
+
+        margin-top: -98px;
+    margin-left: -45px;
+}
+
+.fa_angle_right_copia {
+
+  display: inline-block;
+  width: 11px;
+  height: 16px;
+  z-index: 712;
+  border: none;
+
+    margin-top: -98px;
+    margin-left: 21px;
+}
+
+   .fa_angle_right_copia:hover {
+    background: #786b59; 
+
+   } 
+
+      .fa_angle_left_copia:hover {
+    background: #786b59; 
+
+   } 
+.Rettangolo_5 {
+    border-radius: 3px;
+  background-image: url("images/Rettangolo 5.png");
+
+  width: 192px;
+  height: 51px;
+
+    border: 0px;
+
+          font-size: 11px;
+  font-family: "GothamRoundedq";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+text-transform: uppercase;
+
+letter-spacing: 2.45px;
+
+  text-decoration:none;
+
+margin-top: -213px;
+    margin-left: 767px;
+
+}
+
+.get3 {
+display: inline-block;
+    margin-top: 0.5px;
+    margin-left: -1.1px;
+
+}
+
+#three {
+        background-image: url("images/Rettangolo6.png");
+
+    width: 1280px;
+  height: 484px;
+
+}
+
+.Livello_4 {
+ display: inline-block;
+    margin-top: 164.5px;
+    margin-left: 187.9px;
+
+  width: 59px;
+  height: 55px;
+
+}
+
+.our_community {
+   display: inline-block;
+    margin-top: 247.5px;
+    margin-left: -118.1px;
+  font-size: 16px;
+  font-family: "GothamRoundedq";
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.25;
+
+
+  
+
+      letter-spacing: 2.4px;
+}
+
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc_2 {   /*?????????????*/
+ display: inline-block;
+    margin-top: 285.5px;
+    margin-left: -159.1px;
+  font-size: 10px;
+  font-family: "GothamRoundedp";
+  line-height: 1.2;
+  text-align: center;
+
+
+        letter-spacing: 1.55px;
+}
+
+.fa_angle_left {
+   display: inline-block;
+    margin-top: 94.5px;
+    margin-left: 818.9px;
+
+  width: 11px;
+  height: 16px;
+
+}
+.fa_angle_left:hover {
+ background: #786b59;  
+}
+
+.fa_angle_right {
+     display: inline-block;
+    margin-top: 94.5px;
+    margin-left: 15.9px;
+
+
+
+  width: 11px;
+  height: 16px;
+
+
+}
+
+.fa_angle_right:hover {
+ background: #786b59;  
+}
+
+.Livello_5 {
+     display: inline-block;
+    margin-top: -201px;
+    margin-left: 386.9px;
+      width: 370px;
+  height: 244px;
+}
+
+.Livello_6 {
+     display: inline-block;
+margin-top: -244px;
+    margin-left: 780.9px;
+
+      width: 371px;
+  height: 244px;
+}
+
+#four {
+        background-image: url("images/Livello3.png");
+
+    width: 1280px;
+  height: 789px;
+
+}
+
+.subscribe_to_us_community {
+       display: inline-block;
+    margin-top: 347px;
+    margin-left: 403px;
+  font-size: 24px;
+  font-family: "GothamRoundedw";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+
+
+          letter-spacing: 3.62px;
+}
+
+.Rettangolo_7 {
+         display: inline-block;
+    margin-top: 29px;
+    margin-left: 467px;
+      border-radius: 3px;
+  background-image: url("images/Rettangolo 7.png");
+
+  width: 285px;
+  height: 60px;
+
+  border: 0px;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+  font-size: 16px;
+  font-family: "GothamRoundedp";
+  color: rgb(55, 55, 55);
+  text-transform: uppercase;
+
+
+
+
+
+          letter-spacing: 2.34px;
+                        display: inline-block;
+
+
+
+               }
+.ok {
+
+         display: inline-block;
+    margin-top: -60px;
+    margin-left: 747px;
+  background-image: url("images/ok5.png");
+
+  width: 64px;
+  height: 60px;
+
+    border: 0px;
+
+
+}
+#five {
+  background-image: url("images/Rettangolo11.png");
+
+    width: 1280px;
+  height: 396px;
+
+}
+.Download_it {
+           display: inline-block;
+    margin-top: 87px;
+    margin-left: 547px;
+  font-size: 20px;
+  font-family: "GothamRoundedw";
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+
+
+            letter-spacing: 3px;
+}
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc_3 {
+             display: inline-block;
+margin-top: 6px;
+    margin-left: 219px;
+  font-size: 12px;
+  font-family: "GothamRoundedp";
+  color: rgb(55, 55, 55);
+  text-transform: uppercase;
+  line-height: 1.853;
+  text-align: center;
+
+
+
+
+              letter-spacing: 1.8px;
+
+}
+.apple_store {
+             display: inline-block;
+    margin-top: 6px;
+    margin-left: -107px;
+  font-size: 16px;
+  font-family: "GothamRoundedq";
+  color: rgb(255, 255, 255);
+
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+
+
+
+
+letter-spacing: 2.45px;
+
+  text-decoration:none;
+
+}
+
+
+.apple {
+               display: inline-block;
+    margin-top: 41px;
+    margin-left: 330px;
+    border-radius: 3px;
+  background-image: url("images/8.png");
+
+  width: 296px;
+  height: 56px;
+
+    border: 0px;
+
+
+
+}
+.play_store {
+               display: inline-block;
+    margin-top: 2px;
+    margin-left: -93px;
+
+
+  font-size: 18px;
+  font-family: "GothamRoundedq";
+  color: rgb(255, 255, 255);
+
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+
+
+
+
+letter-spacing: 2.62px;
+
+  text-decoration:none;
+
+}
+
+
+.play {
+               display: inline-block;
+
+    margin-top: 41px;
+    margin-left: 26px;
+  background-image: url("images/99.png");
+
+  width: 296px;
+  height: 56px;
+
+    border: 0px;
+
+
+
+}
+
+.credits___privacy___our_teams_ {
+                 display: inline-block;
+    margin-top: 44px;
+    margin-left: 126px;
+  font-size: 14px;
+  font-family: "Gotham Rounded";
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+  text-transform: uppercase;
+
+      text-decoration:none;
+    color: #373737;
+
+
+    letter-spacing: 2.12px;
+}
+
+.Copyright_by_phototime___all_right_reserved {
+                display: inline-block;
+    margin-top: 80px;
+    margin-left: -301.5px;
+  font-size: 14px;
+  font-family: "GothamRoundedq";
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+  line-height: 1.2;
+
+
+  letter-spacing: 2.1px;
+}
+
+.Livello_2_copia {
+                display: inline-block;
+    margin-top: 38px;
+    margin-left: 575.5px;
+
+  width: 53px;
+  height: 55px;
+
+
+}
+
