@@ -78,7 +78,7 @@ li {
 a {
     display: inline-block;
     text-decoration:none;
-    color: #373737;
+
 }
 img {
       display: inline-block;
@@ -169,10 +169,8 @@ background-image: url("images/444.png");
 }
 
 .flex-item {
+    margin-top: 70px;
 
-
-
-    margin-top: 0px;
     margin-left: 272px;
   
     font-size: 16px;
@@ -180,20 +178,25 @@ background-image: url("images/444.png");
 
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 10;
 
-    text-decoration:none;
+
+
 
 color:#ffffff;
       letter-spacing: 2.5px;
 
+}
+.flex-itemz{
+  height:20px;
+color:#fff;
+    text-decoration:none;
 }
 
 .flex-item2 {
 
 
 
-    margin-top: 0px;
+    margin-top: 70px;
     margin-left: 63px;
   
     font-size: 16px;
@@ -201,7 +204,7 @@ color:#ffffff;
 
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 10;
+
 
     text-decoration:none;
 
@@ -226,7 +229,7 @@ color:#ffffff;
 
 
 
-    margin-top: 0px;
+    margin-top: 70px;
     margin-left: 98px;
   
     font-size: 16px;
@@ -234,7 +237,7 @@ color:#ffffff;
 
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 10;
+
 
     text-decoration:none;
 
@@ -246,7 +249,7 @@ color:#ffffff;
 .flex-item5 {
 
 
-    margin-top: 0px;
+    margin-top: 70px;
     margin-left: 75px;
 
   
@@ -255,7 +258,7 @@ color:#ffffff;
 
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 10;
+
 
     text-decoration:none;
 
@@ -265,7 +268,7 @@ color:#ffffff;
 }
 
 .your_life___a_photo {
-      margin-top: 173px;
+    margin-top: 238px;
     margin-left: 390px;
   font-size: 36px;
   font-family: "GothamRoundedq";
@@ -851,7 +854,7 @@ letter-spacing: 2.62px;
   font-weight: bold;
   text-transform: uppercase;
 
-      text-decoration:none;
+
     color: #373737;
 
 
@@ -867,6 +870,7 @@ letter-spacing: 2.62px;
   color: rgb(55, 55, 55);
   font-weight: bold;
   line-height: 1.2;
+      color: #373737;
 
 
   letter-spacing: 2.1px;
@@ -881,5 +885,9 @@ letter-spacing: 2.62px;
   height: 55px;
 
 
+}
+.footerm {
+    text-decoration:none;
+    color: #373737;
 }
 
